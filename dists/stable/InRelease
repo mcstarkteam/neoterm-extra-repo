@@ -1,0 +1,34 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: stable
+Date: Sat, 24 Sep 2022 09:11:24 UTC
+Architectures: aarch64
+Components: main
+Description: neoterm-packages-24
+MD5Sum:
+ cb7e642c1e5d7cdc90cecad2f421dfb2 157674 main/binary-aarch64/Packages
+ 2e5a899d84ee2a618c67ee87f843a5c4 48886 main/binary-aarch64/Packages.gz
+ 562297ec0f5bf433025753d6f4e4370c 71 main/binary-aarch64/Release
+SHA1:
+ 5113938f39735f43618118b6ab2a108996a0b6a5 157674 main/binary-aarch64/Packages
+ 4e873096539040ea2663e6ecef88cd7ef2328b74 48886 main/binary-aarch64/Packages.gz
+ a6bab90b86f2f0f113d67a452e9e84cdf7270a29 71 main/binary-aarch64/Release
+SHA256:
+ 2020206edb4e3893ae7f7101307807a922f479b680ebb1de7a20c0a825d7a3f7 157674 main/binary-aarch64/Packages
+ 9ad175dfd62ff9796cb269a0123d697e87e91416235f5dfa15b7da479a66b569 48886 main/binary-aarch64/Packages.gz
+ b6347a6f62d8fea62051d40a27d87a7a4997f467aa0a6f804a1e59fdc175191b 71 main/binary-aarch64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE2aITW0FayIa+ukSGeZjrK7WsYqMFAmMuyb0ACgkQeZjrK7Ws
+YqOcUgwAtdrD7aF7mPs71Ox+R065PjT2h1TbVTBRe1uZ3FuYqmAH30Vu+abrRgtF
+xlR0p5+0aNvIzHZuotd6t0aP2dmzsx4iJmUZhYLZTWy9I6saU/Jx+ajNwqKpEfA8
+O00bfcoTCTdjjQkoQXBeSjbatvK2pXON5bmFfr1UmhOoEdL76uFwOg4kZzbjnGTJ
+NK+x82S2z2BWL05kzJ2a4GdXWriwEJ3rk5sA1x9ys8Wt5lNoIpb3FMYSxg35Xv0a
+303FzwUcf+yV76blLCB6f9pi+GsB9IZ7ygPN6e90wylJuOuRFKDUf6pDWwy8bux5
+PvVrS+zzj8uLQyIWyh8Qu3Jkvj2ODyLmw3MclrH0oy6lze1KvzznHo14E1B9pRDK
+cKdS2GJ1AocViJD7OC7xJGRIZGPTOLIVoE6CSWRs21/8OjP0df3MUjfA94mYtP37
+Y5xjNi189gIxN7JlRURVPQiPqN+PD8bZJarq5rfBcR4WPAmuN7MeraevHRer9ZrI
+h6cfp672
+=w9iC
+-----END PGP SIGNATURE-----
