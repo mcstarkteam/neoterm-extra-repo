@@ -99,6 +99,38 @@ SHA1: 9ef8d444cb79583ada1d1ca66c9e66608002bee3
 MD5sum: 393eaa1bc0acc33d94b4ececc5c93b4a
 Description: Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink
 
+Package: autoconf
+Architecture: all
+Installed-Size: 3600
+Maintainer: @termux
+Version: 2.71-2
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+Depends: m4, make, perl
+Priority: extra
+Section: main
+Filename: pool/main/a/autoconf/autoconf_2.71-2_all.deb
+Size: 615324
+SHA256: 7f7df4a096e013433fa43bb9b9f6819a8497ad8cbdb05f3c616ce84524bcf220
+SHA1: e28acba3df1acb79adc79e0e2ad829e1659f971b
+MD5sum: 1f8ac5c46ef9e95168f0918d10a4428a
+Description: Creator of shell scripts to configure source code packages
+
+Package: automake
+Architecture: all
+Installed-Size: 2756
+Maintainer: @termux
+Version: 1.16.5
+Homepage: https://www.gnu.org/software/automake/
+Depends: autoconf
+Priority: extra
+Section: main
+Filename: pool/main/a/automake/automake_1.16.5_all.deb
+Size: 553248
+SHA256: ac9c01e06d2e9856129c88829633ac2a045b14361072eb5634b2c0732bc628ba
+SHA1: c954803fcd21e9087b45695c6db51c9b600c9b77
+MD5sum: f2ff997a49bcac9576fc09ad48ac222f
+Description: Tool for automatically generating Makefile.in files
+
 Package: axel
 Architecture: aarch64
 Installed-Size: 104
@@ -3851,6 +3883,21 @@ SHA256: 66533972edf0a7c956237ffaaf44cfa06716a439b523bb8ce586b141b2ca045d
 SHA1: cb67d7cae2f0befafafa3f7b85512157d5301d33
 MD5sum: 76a69d14f69de6a7b91b45cb973cecf7
 Description: Fast LZ compression algorithm tool
+
+Package: m4
+Architecture: aarch64
+Installed-Size: 664
+Maintainer: @atri
+Version: 1.4.19-3
+Homepage: https://www.gnu.org/software/m4/m4.html
+Priority: extra
+Section: main
+Filename: pool/main/m/m4/m4_1.4.19-3_aarch64.deb
+Size: 188860
+SHA256: 7c5e275364942f7d8134a7859015ff2d51b3b9903fff096c0d70b4de7727bcfd
+SHA1: a8a2f938af3724bf7189f3298a5a26d49f2680ae
+MD5sum: 920618061fc688e218cdf24302791194
+Description: Traditional Unix macro processor
 
 Package: make
 Architecture: aarch64
