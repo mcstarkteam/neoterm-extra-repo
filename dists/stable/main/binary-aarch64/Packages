@@ -4032,6 +4032,21 @@ SHA1: b6e7aff20d99da996e01aebffc5ce9bfae0dfff2
 MD5sum: 3c22a6492062767be01c8f66af65b1ed
 Description: Cleaner of ELF files for Android Neoterm
 
+Package: neoterm-su
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @Atri
+Version: 1.6
+Homepage: https://github.com/neoterm-extra/neoterm-su
+Priority: extra
+Section: main
+Filename: pool/main/n/neoterm-su/neoterm-su_1.6_aarch64.deb
+Size: 2580
+SHA256: db689e7a680061bb531b69186986035220b7980af8c916980715df939c42e6ac
+SHA1: bc38171e8a1c68820555eda278e6d18822d66c10
+MD5sum: a027c084a59767c9a161ac1d56655f02
+Description: su 二进制文件 for Neoterm-Extra
+
 Package: net-tools
 Architecture: aarch64
 Installed-Size: 552
