@@ -4041,10 +4041,10 @@ Homepage: https://github.com/neoterm-extra/neoterm-su
 Priority: extra
 Section: main
 Filename: pool/main/n/neoterm-su/neoterm-su_1.6_aarch64.deb
-Size: 2580
-SHA256: db689e7a680061bb531b69186986035220b7980af8c916980715df939c42e6ac
-SHA1: bc38171e8a1c68820555eda278e6d18822d66c10
-MD5sum: a027c084a59767c9a161ac1d56655f02
+Size: 2584
+SHA256: b18afbd3d8db4d4f6c95a9448f334e38eb24c2bfec939614f61e74caf2e590b9
+SHA1: 634eb91bcffe59245b7c8fb3d185278fb3361075
+MD5sum: 9d63e8858655dbcbf258feaf602a2624
 Description: su 二进制文件 for Neoterm-Extra
 
 Package: net-tools
