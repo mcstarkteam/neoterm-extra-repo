@@ -30,6 +30,74 @@ SHA1: 30a59897189170b12f7ff37a7b5d747f2f0ffe49
 MD5sum: 40e7a8368d7b11aa9ecf68fed4d599ae
 Description: Command-line tools using AOMedia library
 
+Package: apr
+Architecture: aarch64
+Installed-Size: 1232
+Maintainer: @termux
+Version: 1.7.0-7
+Homepage: https://apr.apache.org/
+Breaks: apr-dev
+Depends: libuuid
+Replaces: apr-dev
+Priority: extra
+Section: main
+Filename: pool/main/a/apr/apr_1.7.0-7_aarch64.deb
+Size: 231228
+SHA256: e5ebe73bdc8ac757d0ddfebcdf365221665339af19783f82c5e706bc883d04d1
+SHA1: f05b5f9805c840350d64a18a897da6c0664175bd
+MD5sum: 49ec24e4302a822c24654aea266d95d9
+Description: Apache Portable Runtime Library
+
+Package: apr-static
+Architecture: aarch64
+Installed-Size: 412
+Maintainer: @termux
+Version: 1.7.0-7
+Homepage: https://apr.apache.org/
+Depends: apr (= 1.7.0-7)
+Priority: extra
+Section: main
+Filename: pool/main/a/apr-static/apr-static_1.7.0-7_aarch64.deb
+Size: 82516
+SHA256: 2b944162ebea7103eb6dfc617bf027c7d82f2f877caef2afc027c862f2d8a549
+SHA1: 26eef3ce8093433cee55d2e6087b7c97342b742d
+MD5sum: 328a6784b47f63e3441df194d93f4dac
+Description: Static libraries for apr
+
+Package: apr-util
+Architecture: aarch64
+Installed-Size: 588
+Maintainer: @termux
+Version: 1.6.1-5
+Homepage: https://apr.apache.org/
+Breaks: apr-util-dev
+Depends: apr, libcrypt, libexpat, libiconv, libuuid
+Replaces: apr-util-dev
+Priority: extra
+Section: main
+Filename: pool/main/a/apr-util/apr-util_1.6.1-5_aarch64.deb
+Size: 110500
+SHA256: c2f6b36f1e10f588438fea09283b09dc3c8d0235c589a07d109c79f3eb243ee3
+SHA1: 86382c2b7e408274ad71337bc61d01594dc61dae
+MD5sum: 84f42ba8d425037d6cac2c4346fa5aa5
+Description: Apache Portable Runtime Utility Library
+
+Package: apr-util-static
+Architecture: aarch64
+Installed-Size: 312
+Maintainer: @termux
+Version: 1.6.1-5
+Homepage: https://apr.apache.org/
+Depends: apr-util (= 1.6.1-5)
+Priority: extra
+Section: main
+Filename: pool/main/a/apr-util-static/apr-util-static_1.6.1-5_aarch64.deb
+Size: 67172
+SHA256: 005fcab0532eeb62e13da50fc59e43ca3ff2aaf0a0ed0b378dab4c65f370300a
+SHA1: 0b8475c49df0a0e1f0040685e7002696bc6fcd90
+MD5sum: 85180c786726231f6dbc343a7f04e6d9
+Description: Static libraries for apr-util
+
 Package: apt
 Architecture: aarch64
 Installed-Size: 3788
@@ -1259,6 +1327,40 @@ SHA256: f6bad06b427bc90b04b5e9de5d9316ea9f5b0a619e64852a4993841162f03c11
 SHA1: 74b1c9dadcf5076aafd0434426762bd269e1098a
 MD5sum: 4856c38ce619b2a082e9933d57bfbcf1
 Description: Collection of common network programs
+
+Package: jq
+Architecture: aarch64
+Installed-Size: 1068
+Maintainer: @termux
+Version: 1.6-3
+Homepage: http://stedolan.github.io/jq/
+Breaks: jq-dev
+Depends: oniguruma
+Replaces: jq-dev
+Priority: extra
+Section: main
+Filename: pool/main/j/jq/jq_1.6-3_aarch64.deb
+Size: 258720
+SHA256: 51caad77a60ff2bf44fd204ac171eb044d32c5ed2024f2f4af4e270729bdd950
+SHA1: 2e75b8f46208e4849fb82de8370fbcb941d88653
+MD5sum: a2a10313455bb9310ba1de3472ee1e8b
+Description: Command-line JSON processor
+
+Package: jq-static
+Architecture: aarch64
+Installed-Size: 496
+Maintainer: @termux
+Version: 1.6-3
+Homepage: http://stedolan.github.io/jq/
+Depends: jq (= 1.6-3)
+Priority: extra
+Section: main
+Filename: pool/main/j/jq-static/jq-static_1.6-3_aarch64.deb
+Size: 107340
+SHA256: 0eaac1f9e1b88a9357be60fcc527d4f0c6162ba4dbae3c01937b69ce0f80ef9c
+SHA1: 43e1f489c8ba914cf2a38aed0c44efa6333e4de6
+MD5sum: 47ce5842d84e798135cd30833f9a3662
+Description: Static libraries for jq
 
 Package: jsoncpp
 Architecture: aarch64
@@ -2873,6 +2975,39 @@ SHA1: 260aebca9294b42acccc2136e8901a07585df9e8
 MD5sum: aabf2cfe1cfdfb1e132c7d9a04b8350c
 Description: Static libraries for librav1e
 
+Package: libseccomp
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: @termux
+Version: 2.5.4
+Homepage: https://github.com/seccomp/libseccomp
+Breaks: libseccomp-dev
+Replaces: libseccomp-dev
+Priority: extra
+Section: main
+Filename: pool/main/libs/libseccomp/libseccomp_2.5.4_aarch64.deb
+Size: 69252
+SHA256: f59bb106d927ab5ef826c6b64ec3c23f36a736a3b5e76fd096d57b3c3e651353
+SHA1: 077f9a397582c231ce28672a5ee2e86b9610eaf5
+MD5sum: 0a0eff16b6e01d6a628d23f0afe6cdde
+Description: Enhanced seccomp library
+
+Package: libseccomp-static
+Architecture: aarch64
+Installed-Size: 232
+Maintainer: @termux
+Version: 2.5.4
+Homepage: https://github.com/seccomp/libseccomp
+Depends: libseccomp (= 2.5.4)
+Priority: extra
+Section: main
+Filename: pool/main/libs/libseccomp-static/libseccomp-static_2.5.4_aarch64.deb
+Size: 41000
+SHA256: 7502243fd546eff441eda4265ce975fe119b0dd24d5ab2ae87a521f4d5522335
+SHA1: d9ba99b37d3b9ceffb3b5e6784df17f170e9e1b7
+MD5sum: 12fe7f689bfe74b83e9ab2da9cd26e83
+Description: Static libraries for libseccomp
+
 Package: libsm
 Architecture: aarch64
 Installed-Size: 328
@@ -4140,6 +4275,37 @@ SHA1: 017e080293a03977be9cb489005d12898031a4e3
 MD5sum: 93c8cb2ba5fc0a050d828775b6c1dc21
 Description: A su wrapper for Neoterm by atri
 
+Package: oniguruma
+Architecture: aarch64
+Installed-Size: 664
+Maintainer: @termux
+Version: 6.9.8
+Homepage: https://github.com/kkos/oniguruma
+Priority: extra
+Section: main
+Filename: pool/main/o/oniguruma/oniguruma_6.9.8_aarch64.deb
+Size: 133504
+SHA256: 0dbcd36a0a1b4c55cc4f013e9a5cdbe6e0ada318d93be1dddb2636082bcec795
+SHA1: b0fd6e949a678629b0bc823a7187a0e68175624a
+MD5sum: 83e934083c38f893f1b37ee0fb324e9f
+Description: Regular expressions library
+
+Package: oniguruma-static
+Architecture: aarch64
+Installed-Size: 788
+Maintainer: @termux
+Version: 6.9.8
+Homepage: https://github.com/kkos/oniguruma
+Depends: oniguruma (= 6.9.8)
+Priority: extra
+Section: main
+Filename: pool/main/o/oniguruma-static/oniguruma-static_6.9.8_aarch64.deb
+Size: 140420
+SHA256: 7d044bc85a673e7e68e0977af678a184f2a216bdcf44ddc039e93257ba67a89a
+SHA1: fb3dc3323f4c2e5b208bae8ef0ab8e41a1198bf0
+MD5sum: 3ffb53aeb6126ed38be0223ac130f99f
+Description: Static libraries for oniguruma
+
 Package: openssl
 Architecture: aarch64
 Installed-Size: 6444
@@ -4637,6 +4803,40 @@ SHA1: a8ecda3b8a360333ea701a65ab5d8142b269dbf2
 MD5sum: 6ffe82e21e5f25930911586629dc1fe9
 Description: GNU stream editor for filtering/transforming text
 
+Package: serf
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: @termux
+Version: 1.3.9-9
+Homepage: https://serf.apache.org/
+Breaks: serf-dev
+Depends: apr, apr-util, openssl, libuuid, libexpat, zlib
+Replaces: serf-dev
+Priority: extra
+Section: main
+Filename: pool/main/s/serf/serf_1.3.9-9_aarch64.deb
+Size: 48572
+SHA256: 3c15fa0ad3f4781a59d554d3951b617a74a772c60beaa39c8ea588e92c6e8e28
+SHA1: cbbca8f8b67e13a008ce0dc8a3ffed31f30443bd
+MD5sum: d06ada08b137b57ad41a171817aa199f
+Description: High performance C-based HTTP client library
+
+Package: serf-static
+Architecture: aarch64
+Installed-Size: 220
+Maintainer: @termux
+Version: 1.3.9-9
+Homepage: https://serf.apache.org/
+Depends: serf (= 1.3.9-9)
+Priority: extra
+Section: main
+Filename: pool/main/s/serf-static/serf-static_1.3.9-9_aarch64.deb
+Size: 39684
+SHA256: 39344bc61ec48ac2ad30ebaff6bd91cbc2fc46548c9287fd48f986ed3593d713
+SHA1: f0821e10472098666626f9a21aa81dc4aee093d3
+MD5sum: 6c74139bd49172113ce9302601b5100c
+Description: Static libraries for serf
+
 Package: sl
 Architecture: aarch64
 Installed-Size: 76
@@ -4668,6 +4868,72 @@ SHA256: 2d39cbdf1f3699740edb6ac06f182db2daf9751f9e097408391be8e6033879b6
 SHA1: 9a2bfd6c9ab2a3fdcb28a4e0c153668bc7098334
 MD5sum: 727853ddb2b01df452bbf2dd818dad69
 Description: Command line shell for SQLite
+
+Package: subversion
+Architecture: aarch64
+Installed-Size: 6008
+Maintainer: @termux
+Version: 1.14.2-2
+Homepage: https://subversion.apache.org
+Breaks: subversion-dev
+Depends: apr, apr-util, serf, libexpat, libsqlite, liblz4, utf8proc, zlib
+Replaces: subversion-dev
+Priority: extra
+Section: main
+Filename: pool/main/s/subversion/subversion_1.14.2-2_aarch64.deb
+Size: 1353596
+SHA256: 7fa8864ecb4caf8babf6a58676d6e86955aee8dda030243a3597ec47d25b9b4c
+SHA1: dfd003843195461437d63fb1325633830b25413d
+MD5sum: 2eea03b1bc10451ea03a979781183caf
+Description: Centralized version control system characterized by its simplicity
+
+Package: subversion-perl
+Architecture: aarch64
+Installed-Size: 3960
+Maintainer: @termux
+Version: 1.14.2-2
+Homepage: https://subversion.apache.org
+Depends: perl, subversion (= 1.14.2-2)
+Priority: extra
+Section: main
+Filename: pool/main/s/subversion-perl/subversion-perl_1.14.2-2_aarch64.deb
+Size: 788152
+SHA256: f1ef383fabdbbca2599e5f5808c8f3ca37e2a954134ef03ef14c2e0b4a919149
+SHA1: 72b88a25051aa5e60467e61aba8fdd774fc9afec
+MD5sum: 3fa157c6b8c087522eea4ca44ac89b81
+Description: Perl interface to Subversion
+
+Package: subversion-perl-static
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: @termux
+Version: 1.14.2-2
+Homepage: https://subversion.apache.org
+Depends: subversion-perl, subversion (= 1.14.2-2)
+Priority: extra
+Section: main
+Filename: pool/main/s/subversion-perl-static/subversion-perl-static_1.14.2-2_aarch64.deb
+Size: 15472
+SHA256: 7f566b2d64bbb6074b2d0e58ee022d76fce6c0866ef0fcd4e6423aaca91aed5c
+SHA1: b009b8d04cc024a7578da780654b7bb7c801ef1f
+MD5sum: 888610937d74e14b0b34a74052e25b2d
+Description: Static libraries for subversion-perl
+
+Package: subversion-static
+Architecture: aarch64
+Installed-Size: 5500
+Maintainer: @termux
+Version: 1.14.2-2
+Homepage: https://subversion.apache.org
+Depends: subversion (= 1.14.2-2)
+Priority: extra
+Section: main
+Filename: pool/main/s/subversion-static/subversion-static_1.14.2-2_aarch64.deb
+Size: 1114704
+SHA256: fa48898504d5de560c76f27d547afa84104a2892a9eb7e3bb9ddf24e6df39f92
+SHA1: 406933660ac233cddc613b8a67e421395599fd9b
+MD5sum: 58171416ee5a3c239a33cf34a550483e
+Description: Static libraries for subversion
 
 Package: tar
 Architecture: aarch64
@@ -4867,6 +5133,39 @@ SHA256: c461c663223fcdd60dd6c6df14e5899554f1932f3952c9b84a3372a67d0e3238
 SHA1: e9ec573568275bcd39a3f40a6f6c7db43da08eaa
 MD5sum: eb0b1615b1a5a4c2a87adcd4aed21710
 Description: Tools for working with zip files
+
+Package: utf8proc
+Architecture: aarch64
+Installed-Size: 428
+Maintainer: @termux
+Version: 2.7.0
+Homepage: https://github.com/JuliaLang/utf8proc
+Breaks: utf8proc-dev
+Replaces: utf8proc-dev
+Priority: extra
+Section: main
+Filename: pool/main/u/utf8proc/utf8proc_2.7.0_aarch64.deb
+Size: 58224
+SHA256: bb3bb5f47414566404ec02985b334daf58c38c93a426467993e4bd9d8476d109
+SHA1: 12d0a88ba7ba19f39abcf2d8d248b0f4d2a80bc7
+MD5sum: 8fab5ff9b48c3bdc2636e90c5fdceb65
+Description: Library for processing UTF-8 Unicode data
+
+Package: utf8proc-static
+Architecture: aarch64
+Installed-Size: 364
+Maintainer: @termux
+Version: 2.7.0
+Homepage: https://github.com/JuliaLang/utf8proc
+Depends: utf8proc (= 2.7.0)
+Priority: extra
+Section: main
+Filename: pool/main/u/utf8proc-static/utf8proc-static_2.7.0_aarch64.deb
+Size: 49084
+SHA256: 0429f88f50bfa0647420cee0d2f46f9dd284597cfc3e5047cd3c85e91e1be9bb
+SHA1: 4f1cc7923706b23ee21a5cc48cd8906f1ac3829c
+MD5sum: e6d83e292f37527a0f3298c6b2f7d226
+Description: Static libraries for utf8proc
 
 Package: util-linux
 Architecture: aarch64
