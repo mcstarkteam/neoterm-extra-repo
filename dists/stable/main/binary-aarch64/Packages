@@ -4973,17 +4973,17 @@ Description: Powerful but easy to learn dynamic programming language
 Package: termux-exec
 Architecture: aarch64
 Installed-Size: 48
-Maintainer: @termux
-Version: 1:0.9
+Maintainer: @atri
+Version: 1:1.0
 Homepage: https://github.com/termux/termux-exec
 Essential: yes
 Priority: extra
 Section: main
-Filename: pool/main/t/termux-exec/termux-exec_0.9_aarch64.deb
+Filename: pool/main/t/termux-exec/termux-exec_1.0_aarch64.deb
 Size: 3592
-SHA256: 3b796a44062de3ff46e877e1ccfcaa934436cb7731ceced239446f98de0073ae
-SHA1: dddcb816ff265847f5485f96742c7624287cc854
-MD5sum: e41b0ed53ac2d68ab8b635fa8e1bf777
+SHA256: a24d54a30f42d85bf96c0fcef6ec7dd18acf40ca5cc7e5cd2286069a6faf9719
+SHA1: b60f4f7db429460e4cec16d054149de6b906facd
+MD5sum: a20afe4b3745ef2b88cfb75c146dee2d
 Description: An execve() wrapper to make /bin and /usr/bin shebangs work
 
 Package: termux-keyring
@@ -5017,6 +5017,21 @@ SHA256: c0573857185cf00dc378fc67c84c678f69cdc277335ceaa67f77c8bedead6e9b
 SHA1: 3588200c53dad3b6ca58fa9057967c123681c97b
 MD5sum: 348f0e67e932b37d4b1b9231789456cc
 Description: Contains LICENSE files for common licenses
+
+Package: termux-setup-package-manager
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @atri
+Version: 0.118
+Homepage: no home page
+Priority: extra
+Section: main
+Filename: pool/main/t/termux-setup-package-manager/termux-setup-package-manager_0.118_aarch64.deb
+Size: 1232
+SHA256: f9062a7f4ed9b15573d4fc50cf7bd1269c29a3cee8cf0c1ebaf524f96c179f24
+SHA1: 04f19305e7f7fd3536140cce5b8d1ac1496d255e
+MD5sum: 3a580bbda80127dffa543299534b80a7
+Description: package manager select 
 
 Package: termux-tools
 Architecture: all
