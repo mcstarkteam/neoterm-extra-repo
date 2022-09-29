@@ -1,17 +1,17 @@
 Codename: stable
-Date: Thu, 29 Sep 2022 15:55:18 UTC
+Date: Thu, 29 Sep 2022 22:08:46 UTC
 Architectures: aarch64
 Components: main
 Description: neoterm-packages-24
 MD5Sum:
- fe1f16e8badec80bddd35784e612f864 169499 main/binary-aarch64/Packages
- c11b4c214c1d307fd74d27f2691de5e3 52578 main/binary-aarch64/Packages.gz
+ 1e96cf086b6bae8930fa6012d3557a31 170506 main/binary-aarch64/Packages
+ 1922e0fc7fc0ea2619ff454903b10afb 52910 main/binary-aarch64/Packages.gz
  562297ec0f5bf433025753d6f4e4370c 71 main/binary-aarch64/Release
 SHA1:
- 21b75a3cc3812454642bfcc4fc1291971b49caca 169499 main/binary-aarch64/Packages
- da2a3a3ba50b875547c22a97d08bf9ecf461fb8e 52578 main/binary-aarch64/Packages.gz
+ 4cb82e63c89cc80577c4fbbaf0ab6eb1c78c32e5 170506 main/binary-aarch64/Packages
+ 2aa33b182495e0197f9c4f4f7393f51b3fcf0897 52910 main/binary-aarch64/Packages.gz
  a6bab90b86f2f0f113d67a452e9e84cdf7270a29 71 main/binary-aarch64/Release
 SHA256:
- 8dd50e108946f8bd33e507d3b985225dac965a701060446de626990be01b07b3 169499 main/binary-aarch64/Packages
- a170e823066a88220f4a2cafe11460dca6b406e5231e06fc0b9747bf1361298c 52578 main/binary-aarch64/Packages.gz
+ ecb429564118983efa639a88bfd1d463808c59aa5674bb23b4428171a1c9f9bd 170506 main/binary-aarch64/Packages
+ 9dc85c8f8b905c6fd9057db46b888506799434fed8094b08fd030b58a9014b4a 52910 main/binary-aarch64/Packages.gz
  b6347a6f62d8fea62051d40a27d87a7a4997f467aa0a6f804a1e59fdc175191b 71 main/binary-aarch64/Release

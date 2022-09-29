@@ -3934,6 +3934,39 @@ SHA1: 70db10d3c2e8aaac86649f978750b257c8305bb2
 MD5sum: c2f868d2cee15904f73ef4a491d77902
 Description: Static libraries for libxtst
 
+Package: libyaml
+Architecture: aarch64
+Installed-Size: 204
+Maintainer: @termux
+Version: 0.2.5-4
+Homepage: https://pyyaml.org/wiki/LibYAML
+Breaks: libyaml-dev
+Replaces: libyaml-dev
+Priority: extra
+Section: main
+Filename: pool/main/liby/libyaml/libyaml_0.2.5-4_aarch64.deb
+Size: 45968
+SHA256: 1c7cdd4c7b1927c5f9bbdf7c31d41f79d0b0b81791a32a4edd51a53e7462369a
+SHA1: a2b7b5a39cb67140f62b69782eec771d4e46cd82
+MD5sum: e8d1cfdf485ac445cfa5227c2c9de23a
+Description: LibYAML is a YAML 1.1 parser and emitter written in C
+
+Package: libyaml-static
+Architecture: aarch64
+Installed-Size: 184
+Maintainer: @termux
+Version: 0.2.5-4
+Homepage: https://pyyaml.org/wiki/LibYAML
+Depends: libyaml (= 0.2.5-4)
+Priority: extra
+Section: main
+Filename: pool/main/liby/libyaml-static/libyaml-static_0.2.5-4_aarch64.deb
+Size: 43356
+SHA256: af319d82338c0080a3fecde792c13cfdd3567e70c15a76fd526f6400f9231042
+SHA1: d64d6ebe71a4a4c26783f2be93727ef137880dcb
+MD5sum: 71f6df376859c01b6c90de25380e74e2
+Description: Static libraries for libyaml
+
 Package: lld
 Architecture: aarch64
 Installed-Size: 14988
