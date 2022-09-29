@@ -1330,17 +1330,17 @@ Description: Collection of common network programs
 
 Package: java-11
 Architecture: aarch64
-Installed-Size: 1496
+Installed-Size: 141572
 Maintainer: @atri
 Version: 11
 Homepage: java.net
 Priority: extra
 Section: main
 Filename: pool/main/j/java-11/java-11_11_aarch64.deb
-Size: 317732
-SHA256: 56ce8d3674fcae1cb6a3478248a2f0084d51b28aa4512f77cded7052008e551b
-SHA1: b663a4c1cd92ba0fd7cb694c273815aafa39bbc1
-MD5sum: 1bfc7a2115ccf720109e6476ebaa2cff
+Size: 30711364
+SHA256: 9b0a97621b347d2867de33dbd139b146222d23d0aa2492f2bb7493f68bb7d9a8
+SHA1: 8439a4d69f5b8432a80c28b325a7b535042ba770
+MD5sum: a3f9c6a03567587dbebf35019a4bfa77
 Description: java 11 runitme for neoterm 
 
 Package: jq
